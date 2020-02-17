@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/zima.unity
+- path: Assets/Scenes/help.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

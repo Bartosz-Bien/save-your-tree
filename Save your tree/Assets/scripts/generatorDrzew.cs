@@ -18,10 +18,11 @@ public class generatorDrzew : staty
     
     public void generujDrzewa()
     {
-        GameObject rycerz = GameObject.Find("eventSkrypt");
+        Debug.Log(miesiac);
+        GameObject rycerz = GameObject.Find("eventsSkript");/*
         freePlayEventy hpscript = rycerz.GetComponent<freePlayEventy>();
         czyScieloDrzewo = hpscript.czyScieloDrzewo;
-
+        */
         Debug.Log(czyScieloDrzewo);
         if (miesiac % 12 == 10) // wypłata za plony
             iloscPieniedzy += (1000 * iloscDrzew);

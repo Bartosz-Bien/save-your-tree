@@ -35,6 +35,7 @@ public class SklepSkrypt : staty
 
     public void kupDrzewo()
     {
+        Debug.Log(cenaDrzewa);
         if ((iloscPieniedzy >= cenaDrzewa) && iloscDrzew < 14)
         {
             iloscDrzew++;
